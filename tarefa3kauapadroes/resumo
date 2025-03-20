@@ -1,0 +1,9 @@
+No SRP (Responsabilidade Única), o código errado mistura dados do funcionário e geração de relatório na mesma classe, o que não é ideal. A versão corrigida separa essas responsabilidades em classes diferentes.
+
+No OCP (Aberto/Fechado), a versão errada usa vários if para calcular salários de diferentes cargos, o que dificulta a manutenção. A correção usa polimorfismo, criando classes específicas para cada tipo de funcionário.
+
+No LSP (Substituição de Liskov), a versão errada tenta tratar Quadrado como um Retangulo, causando comportamento inesperado ao alterar largura e altura. A solução foi separar as classes corretamente.
+
+No ISP (Segregação de Interface), a classe errada obriga Faxineiro e Desenvolvedor a implementar métodos desnecessários. A correção divide as interfaces, garantindo que cada classe implemente só o que realmente usa.
+
+No DIP (Inversão de Dependência), ComputadorErrado depende diretamente de Teclado e Monitor, o que dificulta mudanças. A versão correta usa interfaces (DispositivoEntrada e DispositivoSaida), permitindo mais flexibilidade.
