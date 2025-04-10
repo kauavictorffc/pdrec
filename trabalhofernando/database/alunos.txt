@@ -1,0 +1,4 @@
+10;Nathany
+21;Nathany
+30;Kaua
+40;Nathany
